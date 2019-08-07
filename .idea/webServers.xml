@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="af708dea-55d7-42af-8597-8bd07abd0053" name="ika" url="http://hawk.earthshadow.net">
+        <fileTransfer host="hawk.earthshadow.net" port="22" rootFolder="/u2/www/ika/sites" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
