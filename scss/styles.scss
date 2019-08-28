@@ -76,29 +76,25 @@ h1, h2, h3 {
 }
 
 /* jumbotron backgrounds */
-.impactiv {
-  background-image: url("../assets/impactiv.png");
+#impactiv {
+  background-image: url("../assets/images/impactiv.png");
 }
 
-.pyfighter {
+#pyfighter {
   background-image: url("../assets/pyfighter.png");
 }
 
-.wintergreen {
+#wintergreen {
   background-image: url("../assets/wintergreen.png");
 }
 
-.booth {
+#booth {
   background-image: url("../assets/boothgame.png");
-}
-
-.wordfrenzy {
-  background-image: url("../assets/wordfrenzy.png");
 }
 
 /* about page */
 #stufflist {
-  margin-top: 15px;
+  padding-top: 15px;
 
   ul {
     font-size: 0.75em;
