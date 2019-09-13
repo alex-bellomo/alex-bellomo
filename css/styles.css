@@ -46,7 +46,7 @@ h1, h2, h3 {
   background-color: white;
 }
 
-/* work page */
+/* projects page */
 /* jumbotron w/ fade in */
 .jumbotron.jcover {
   background-size: cover;
@@ -56,11 +56,11 @@ h1, h2, h3 {
   text-align: center;
 }
 .jumbotron.jcover .bg-overlay {
-  background: rgba(255, 255, 255, 0.5);
+  background: rgba(255, 255, 255, 0.9);
   height: 250px;
 }
 .jumbotron.jcover h1 {
-  color: #032539;
+  color: #282627;
   font-family: "Swansea";
   font-weight: bold;
   font-size: 3em;
@@ -74,7 +74,7 @@ h1, h2, h3 {
   background-image: url("../assets/images/impactiv.png");
 }
 
-#pyfighter {
+#philanthropy {
   background-image: url("../assets/images/philanthropy.png");
 }
 
@@ -87,6 +87,7 @@ h1, h2, h3 {
 }
 
 /* about page */
+/* stufflist */
 #stufflist {
   padding-top: 15px;
 }
@@ -99,13 +100,17 @@ h1, h2, h3 {
   margin-bottom: 10px;
 }
 
+/* card */
+.card {
+  border: none;
+}
+
 /* DESKTOP */
 @media (min-width: 576px) {
   /* projects page */
   /* jumbotron fade in */
   .jumbotron.jcover {
     text-align: center;
-    margin-bottom: 10px;
   }
   .jumbotron.jcover .bg-overlay {
     background: rgba(255, 255, 255, 0);
@@ -119,7 +124,7 @@ h1, h2, h3 {
     opacity: 0;
   }
   .jumbotron.jcover .bg-overlay:hover {
-    background: rgba(255, 255, 255, 0.5);
+    background: rgba(255, 255, 255, 0.9);
   }
   .jumbotron.jcover .bg-overlay:hover h1 {
     opacity: 1;
