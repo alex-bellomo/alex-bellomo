@@ -12,7 +12,7 @@
 }
 
 h1, h2, h3 {
-  font-family: "Swansea", serif;
+  font-family: "Swansea";
   font-weight: bold;
 }
 
@@ -20,7 +20,7 @@ h1, h2, h3 {
 * {
   margin: 0;
   padding: 0;
-  font-family: "Swansea", serif;
+  font-family: "Swansea";
 }
 
 /* fade animation */
@@ -81,15 +81,15 @@ h1, h2, h3 {
 }
 
 #pyfighter {
-  background-image: url("../assets/pyfighter.png");
+  background-image: url("../assets/images/philanthropy.png");
 }
 
 #wintergreen {
-  background-image: url("../assets/wintergreen.png");
+  background-image: url("../assets/images/wintergreen.png");
 }
 
-#booth {
-  background-image: url("../assets/boothgame.png");
+#scoops {
+  background-image: url("../assets/images/icecream.png");
 }
 
 /* about page */
@@ -113,17 +113,21 @@ h1, h2, h3 {
   /* jumbotron fade in */
   .jumbotron.jcover {
     text-align: center;
+    margin-bottom: 3px;
 
     .bg-overlay {
       background: rgba(255, 255, 255, 0);
 
       /* jumbotron header fade */
       h1 {
+        font-family: "Swansea";
+        font-weight: bold;
         font-size: 3.5em;
         transition: opacity .25s ease;
         -moz-transition: opacity .25s ease;
         -webkit-transition: opacity .25s ease;
         opacity: 0;
+        color: rgba(0, 0, 0, 0.73);
       }
 
       &:hover {
@@ -140,5 +144,9 @@ h1, h2, h3 {
   /* stuffbox */
   #stufflist {
     margin-top: 0;
+
+    a {
+      text-decoration: none;
+    }
   }
 }
