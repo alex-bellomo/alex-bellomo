@@ -60,6 +60,9 @@ h1, h2, h3 {
   height: 250px;
 }
 .jumbotron.jcover h1 {
+  color: #032539;
+  font-family: "Swansea";
+  font-weight: bold;
   font-size: 3em;
 }
 .jumbotron.jcover a {
@@ -102,21 +105,18 @@ h1, h2, h3 {
   /* jumbotron fade in */
   .jumbotron.jcover {
     text-align: center;
-    margin-bottom: 3px;
+    margin-bottom: 10px;
   }
   .jumbotron.jcover .bg-overlay {
     background: rgba(255, 255, 255, 0);
     /* jumbotron header fade */
   }
   .jumbotron.jcover .bg-overlay h1 {
-    font-family: "Swansea";
-    font-weight: bold;
     font-size: 3.5em;
     transition: opacity 0.25s ease;
     -moz-transition: opacity 0.25s ease;
     -webkit-transition: opacity 0.25s ease;
     opacity: 0;
-    color: rgba(0, 0, 0, 0.73);
   }
   .jumbotron.jcover .bg-overlay:hover {
     background: rgba(255, 255, 255, 0.5);
