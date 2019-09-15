@@ -3,13 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="4764ad45-ab6f-414e-b157-445028edcf6c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/icecream.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/icecream.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/impactiv.html" beforeDir="false" afterPath="$PROJECT_DIR$/impactiv.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/philanthropy.html" beforeDir="false" afterPath="$PROJECT_DIR$/philanthropy.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scoops.html" beforeDir="false" afterPath="$PROJECT_DIR$/scoops.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/styles.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,7 +32,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/scss" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../1057_Scoops_Mobile" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
@@ -109,7 +102,7 @@
       <workItem from="1568399499100" duration="1684000" />
       <workItem from="1568403852269" duration="2046000" />
       <workItem from="1568407117780" duration="374000" />
-      <workItem from="1568410513825" duration="2262000" />
+      <workItem from="1568410513825" duration="2722000" />
     </task>
     <servers />
   </component>

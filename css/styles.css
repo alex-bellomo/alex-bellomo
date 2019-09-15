@@ -3,11 +3,13 @@
   font-family: "Swansea";
   src: url(../assets/fonts/Swansea/SWANSE__.TTF);
 }
+
 @font-face {
   font-family: "Swansea";
   font-weight: bold;
   src: url(../assets/fonts/Swansea/SWANSE_B.TTF);
 }
+
 h1, h2, h3 {
   font-family: "Swansea";
   font-weight: bold;
@@ -22,7 +24,17 @@ h1, h2, h3 {
 
 /* fade animation */
 .fade-in {
-  animation: fadeIn 0.25s;
+  -webkit-animation: fadeIn 0.25s;
+          animation: fadeIn 0.25s;
+}
+
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 @keyframes fadeIn {
@@ -33,10 +45,10 @@ h1, h2, h3 {
     opacity: 1;
   }
 }
+
 /* ease in out animation */
 .animated {
   -webkit-transition: all 0.25s ease;
-  -o-transition: all 0.25s ease;
   transition: all 0.25s ease;
 }
 
@@ -55,23 +67,26 @@ h1, h2, h3 {
   margin-bottom: 0;
   text-align: center;
 }
+
 .jumbotron.jcover .bg-overlay {
   background: rgba(255, 255, 255, 0.8);
   height: 250px;
 }
+
 .jumbotron.jcover h1 {
   color: #282627;
   font-family: "Swansea";
   font-weight: bold;
   font-size: 3em;
 }
+
 .jumbotron.jcover a {
   text-decoration: none;
 }
 
 /* jumbotron backgrounds */
 #impactiv {
-  background-image: url("../assets/images/impactiv.jpg");
+  background-image: url("../assets/images/impactiv.png");
 }
 
 #philanthropy {
@@ -91,11 +106,13 @@ h1, h2, h3 {
 #stufflist {
   padding-top: 15px;
 }
+
 #stufflist ul {
   font-size: 0.75em;
   list-style-type: square;
   padding-left: 20px;
 }
+
 #stufflist p {
   margin-bottom: 10px;
 }
@@ -123,9 +140,9 @@ h1, h2, h3 {
   }
   .jumbotron.jcover .bg-overlay h1 {
     font-size: 3.5em;
-    transition: opacity 0.25s ease;
-    -moz-transition: opacity 0.25s ease;
-    -webkit-transition: opacity 0.25s ease;
+    transition: opacity .25s ease;
+    -moz-transition: opacity .25s ease;
+    -webkit-transition: opacity .25s ease;
     opacity: 0;
   }
   .jumbotron.jcover .bg-overlay:hover {
@@ -134,7 +151,6 @@ h1, h2, h3 {
   .jumbotron.jcover .bg-overlay:hover h1 {
     opacity: 1;
   }
-
   /* about page */
   /* stuffbox */
   #stufflist {
@@ -144,5 +160,3 @@ h1, h2, h3 {
     text-decoration: none;
   }
 }
-
-/*# sourceMappingURL=styles.css.map */
