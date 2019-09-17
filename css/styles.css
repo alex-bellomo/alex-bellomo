@@ -23,7 +23,7 @@ h1, h2, h3 {
 }
 
 /* fade animation */
-.fade-in {
+.fadeIn {
   -webkit-animation: fadeIn 0.25s;
           animation: fadeIn 0.25s;
 }
