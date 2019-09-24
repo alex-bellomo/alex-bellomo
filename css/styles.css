@@ -11,7 +11,7 @@
 }
 
 h1, h2, h3 {
-  font-family: "Swansea";
+  font-family: serif;
   font-weight: bold;
 }
 
@@ -75,7 +75,7 @@ h1, h2, h3 {
 
 .jumbotron.jcover h1 {
   color: #282627;
-  font-family: "Swansea";
+  font-family: serif;
   font-weight: bold;
   font-size: 3em;
 }
