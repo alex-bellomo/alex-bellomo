@@ -1,0 +1,246 @@
+/* fonts */
+
+@font-face {
+  font-family: "Swansea";
+  src: url(../assets/fonts/Swansea/SWANSE__.TTF);
+}
+
+@font-face {
+  font-family: "Swansea";
+  font-weight: bold;
+  src: url(../assets/fonts/Swansea/SWANSE_B.TTF);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: url("../assets/images/idk.png");
+}
+
+h1, h2, h3, h4, h5 {
+  font-weight: bold;
+}
+
+p, h1, h2, h3, h4, h5 {
+  color: white;
+}
+
+p.small {
+  font-size: 0.75rem;
+}
+
+/* reset padding */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Swansea" !important;
+}
+
+/* animations */
+/* fade animation */
+.fadeIn {
+  animation: fadeIn 0.5s;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* highlight animation */
+@keyframes highlight {
+  from {
+  background-size: 0% 100%;
+  background-position: 0% 100%;
+  }
+  to {
+  background-size: 100% 100%;
+  background-position: 0% 0%;
+  }
+}
+span.highlighted {
+  display: inline-block;
+  padding: 2px 6px;
+  background: linear-gradient(135deg, #e052a0, #f15d40); 
+  background-repeat: no-repeat;
+  animation: highlight 0.75s;
+  color: white;
+}
+
+/* ease in out animation */
+.animated {
+  -webkit-transition: all 0.25s ease;
+  -o-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+}
+
+/* slide animation */
+@keyframes slide {
+  0%{
+    transform: translate3d(0, 0, 0);
+  }
+  100%{
+    transform: translate3d(-1692px, 0, 0);
+  }
+}
+
+/* helper classes */
+.split {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* beautiful buttons :) */
+.button {
+  display: inline-block;
+  color: white;
+  font-family: serif;
+  font-weight: bold;
+  padding-bottom: 4px;
+  padding-left: 3px;
+  padding-right: 3px;
+  background: linear-gradient(135deg, #e052a0, #f15d40); 
+  background-repeat: no-repeat;
+  background-position: 0% 100%;
+  background-size: 100% 2px;
+  transition: background-size .25s, background-position .15s ease-in .25s;
+
+  &:hover {
+    color: white;
+    background-size: 100% 100%;
+    background-position: 0% 0%;
+    transition: background-position .25s, background-size .15s ease-in .25s;
+    text-decoration: none;
+  }
+}
+
+/* page breaks */
+.page-break {
+  width: 100%;
+
+  &.gradient {
+    background: linear-gradient(135deg, #e052a0, #f15d40); 
+    height: 2px;
+  }
+  &.gray {
+    background:#a2a2a2;
+    height: 1px;
+  }
+}
+
+/* MOBILE */
+
+/* about me & project boxes */
+.things-container{
+  padding: 30px 0px;
+
+  img {
+    width: 100%;
+    border-radius: 5px;
+  }
+
+  #stufflist {
+    ul {
+      padding: 0;
+      list-style: none;
+    }
+
+    p {
+      font-size: 0.9rem
+    }
+  }
+
+  #buttons {
+    display: flex;
+
+    #resumebutton {
+      margin-right: 10px;
+    }
+  }
+}
+
+/* experience */
+#parthean {
+  background: linear-gradient( rgba(19, 19, 19, 0.85), rgba(19, 19, 19, 0.85) ), url('../assets/images/parthean_color.png');
+  background-position: center;
+}
+
+#moonranger {
+  background: linear-gradient( rgba(19, 19, 19, 0.85), rgba(19, 19, 19, 0.85) ), url('../assets/images/moonranger.jpg');
+  background-position: center;
+}
+
+#impactiv {
+  background: linear-gradient( rgba(19, 19, 19, 0.85), rgba(19, 19, 19, 0.85) ), url('../assets/images/impactiv_low.png');
+  background-position: top;
+}
+
+#philanthropy {
+  background: linear-gradient( rgba(19, 19, 19, 0.85), rgba(19, 19, 19, 0.85) ), url('../assets/images/philanthropy.jpg');
+  background-position: center;
+}
+
+#scoops {
+  background: linear-gradient( rgba(19, 19, 19, 0.85), rgba(19, 19, 19, 0.85) ), url('../assets/images/icecream.jpg');
+  background-position: center;
+}
+
+.experience {
+  overflow: hidden;
+  position: relative;
+  background: #131313;
+
+  .sliding-background {
+    opacity: 0;
+    height: 300px;
+    width: 5076px;
+    animation: slide 60s linear infinite;
+    transition: opacity 0.3s;
+  }
+  
+  .content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  &:hover {
+    .header {
+      display: inline-block;
+      padding: 2px 6px;
+      background: linear-gradient(135deg, #e052a0, #f15d40); 
+      background-repeat: no-repeat;
+      animation: highlight 0.75s;
+    }
+    .sliding-background {
+      opacity: 1;
+    }
+  }
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  padding: 0 50px;
+
+  #back {
+    margin-right: 20px;
+  }
+}
+
+/* DESKTOP */
+@media (min-width: 576px) {
+}
