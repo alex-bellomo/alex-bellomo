@@ -12,10 +12,14 @@
 }
 
 html {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
   scroll-behavior: smooth;
 }
 
 body {
+  flex: 1;
   background: url("../assets/images/idk.png");
 }
 
@@ -82,10 +86,10 @@ span.highlighted {
 
 /* slide animation */
 @keyframes slide {
-  0%{
+  from {
     transform: translate3d(0, 0, 0);
   }
-  100%{
+  to {
     transform: translate3d(-1692px, 0, 0);
   }
 }
@@ -126,10 +130,10 @@ span.highlighted {
 
   &.gradient {
     background: linear-gradient(135deg, #e052a0, #f15d40); 
-    height: 2px;
+    height: 5px;
   }
   &.gray {
-    background:#a2a2a2;
+    background: #242424;
     height: 1px;
   }
 }
@@ -167,39 +171,39 @@ span.highlighted {
 
 /* experience */
 #parthean {
-  background: linear-gradient( rgba(19, 19, 19, 0.85), rgba(19, 19, 19, 0.85) ), url('../assets/images/parthean_color.png');
+  background: linear-gradient( rgba(15, 15, 15, 0.85), rgba(15, 15, 15, 0.85) ), url('../assets/images/parthean_color.png');
   background-position: center;
 }
 
 #moonranger {
-  background: linear-gradient( rgba(19, 19, 19, 0.85), rgba(19, 19, 19, 0.85) ), url('../assets/images/moonranger.jpg');
+  background: linear-gradient( rgba(15, 15, 15, 0.85), rgba(15, 15, 15, 0.85) ), url('../assets/images/moonranger.jpg');
   background-position: center;
 }
 
 #impactiv {
-  background: linear-gradient( rgba(19, 19, 19, 0.85), rgba(19, 19, 19, 0.85) ), url('../assets/images/impactiv_low.png');
+  background: linear-gradient( rgba(15, 15, 15, 0.85), rgba(15, 15, 15, 0.85) ), url('../assets/images/impactiv_low.png');
   background-position: top;
 }
 
 #philanthropy {
-  background: linear-gradient( rgba(19, 19, 19, 0.85), rgba(19, 19, 19, 0.85) ), url('../assets/images/philanthropy.jpg');
+  background: linear-gradient( rgba(15, 15, 15, 0.85), rgba(15, 15, 15, 0.85) ), url('../assets/images/philanthropy.jpg');
   background-position: center;
 }
 
 #skisnowboard {
-  background: linear-gradient( rgba(19, 19, 19, 0.85), rgba(19, 19, 19, 0.85) ), url('../assets/images/merch.png');
+  background: linear-gradient( rgba(15, 15, 15, 0.85), rgba(15, 15, 15, 0.85) ), url('../assets/images/merch.png');
   background-position: center;
 }
 
 #scoops {
-  background: linear-gradient( rgba(19, 19, 19, 0.85), rgba(19, 19, 19, 0.85) ), url('../assets/images/icecream.jpg');
+  background: linear-gradient( rgba(15, 15, 15, 0.85), rgba(15, 15, 15, 0.85) ), url('../assets/images/icecream.jpg');
   background-position: center;
 }
 
 .experience {
   overflow: hidden;
   position: relative;
-  background: #131313;
+  background: #0f0f0f;
 
   .sliding-background {
     opacity: 0;
@@ -238,7 +242,7 @@ span.highlighted {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100px;
+  height: 200px;
   padding: 0 50px;
 
   #back {
