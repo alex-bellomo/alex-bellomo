@@ -228,6 +228,12 @@ span.highlighted {
   background-position: center;
 }
 
+#skisnowboard {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(19, 19, 19, 0.85)), to(rgba(19, 19, 19, 0.85))), url("../assets/images/merch.png");
+  background: linear-gradient(rgba(19, 19, 19, 0.85), rgba(19, 19, 19, 0.85)), url("../assets/images/merch.png");
+  background-position: center;
+}
+
 #scoops {
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(19, 19, 19, 0.85)), to(rgba(19, 19, 19, 0.85))), url("../assets/images/icecream.jpg");
   background: linear-gradient(rgba(19, 19, 19, 0.85), rgba(19, 19, 19, 0.85)), url("../assets/images/icecream.jpg");
