@@ -246,6 +246,15 @@ span.highlighted {
   }
 }
 
+.video-box {
+  display: flex;
+  justify-content: center;
+
+  video {
+    width: 75%;
+  }
+}
+
 /* DESKTOP */
 @media (min-width: 576px) {
 }
