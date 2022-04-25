@@ -170,6 +170,19 @@ span.highlighted {
 }
 
 /* experience */
+#wrap{
+  display:flex;
+  background:rgba(15, 15, 15, 0.85);
+}
+.hb {
+  width:100%;
+  z-index:1;
+  display:flex;
+  align-items:center;
+  z-index:2;
+  margin: 0 10%;
+}
+
 #parthean {
   background: linear-gradient( rgba(15, 15, 15, 0.85), rgba(15, 15, 15, 0.85) ), url('../assets/images/parthean_color.png');
   background-position: center;
@@ -220,6 +233,7 @@ span.highlighted {
   
   .content {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     width: 100%;
@@ -229,10 +243,13 @@ span.highlighted {
     left: 0;
   }
 
+  .header {
+    padding: 2px 6px;
+  }
+
   &:hover {
     .header {
       display: inline-block;
-      padding: 2px 6px;
       background: linear-gradient(135deg, #e052a0, #f15d40); 
       background-repeat: no-repeat;
       animation: highlight 0.75s;
